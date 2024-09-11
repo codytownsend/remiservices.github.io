@@ -916,3 +916,10 @@ button.accordion-button.faq-button.collapsed {
 .footer-nav a:hover {
     color: #6EC177;
 }
+
+@media (max-width: 767px) {
+    .footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
