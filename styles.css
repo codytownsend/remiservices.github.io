@@ -259,12 +259,12 @@ body {
     }
 
     .hero h1 {
-        font-size: 2.75rem;
+        font-size: 2.25rem;
         /* Adjust text size for mobile */
     }
 
     .hero-text p {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     /* Stack buttons and make them larger */
@@ -334,6 +334,7 @@ body {
     .services-section {
         flex-direction: column;
         text-align: center;
+        padding: 4rem 1rem;
     }
 
     .services-section .container {
@@ -609,6 +610,13 @@ input[type="radio"] {
     .faq-accordion {
         max-width: 100%!important;
         margin-top: 30px;
+    }
+    .faq-section {
+        padding: 4rem 1rem;
+    }
+    .faq-header button {
+        font-size: .9rem;
+        column-gap: 12px;
     }
 }
 .faq-section {
@@ -912,4 +920,12 @@ button.accordion-button.faq-button.collapsed {
 
 .footer-nav a:hover {
     color: #6EC177;
+}
+
+/* Mobile-specific styling */
+@media (max-width: 767px) {
+    .footer-nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
