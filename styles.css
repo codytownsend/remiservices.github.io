@@ -259,12 +259,12 @@ body {
     }
 
     .hero h1 {
-        font-size: 2.75rem;
+        font-size: 2.25rem;
         /* Adjust text size for mobile */
     }
 
     .hero-text p {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     /* Stack buttons and make them larger */
@@ -293,7 +293,7 @@ body {
 /* Logo Carousel */
 .logo-row-section img {
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 @media (max-width: 767px) {
@@ -334,6 +334,7 @@ body {
     .services-section {
         flex-direction: column;
         text-align: center;
+        padding: 3rem 1rem;
     }
 
     .services-section .container {
@@ -610,6 +611,8 @@ input[type="radio"] {
         max-width: 100%!important;
         margin-top: 30px;
     }
+    .faq-section {
+        padding: 3rem 1rem;
 }
 .faq-section {
     padding: 4rem 2rem;
