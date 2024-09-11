@@ -868,6 +868,9 @@ button.accordion-button.faq-button.collapsed {
     .form-container {
         min-width: 90%;
     }
+    .headings h2 {
+        font-size: 2.75rem;
+    }
 }
 
 /* Background and Form Placement */
