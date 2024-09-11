@@ -46,7 +46,7 @@ body {
 
 .btn-quote:hover {
     background-color: #6EC177;
-    color: #022C22;
+    color: #ffffff;
 }
 
 /* Mobile Menu */
@@ -132,7 +132,7 @@ body {
 
 .btn-quote:hover {
     background-color: #6EC177;
-    color: #022C22;
+    color: #ffffff;
 }
 
 .navbar-toggler {
@@ -848,7 +848,7 @@ button.accordion-button.faq-button.collapsed {
 
 .contact-form .btn:hover {
     background-color: #6EC177;
-    color: #022C22;
+    color: #ffffff;
 }
 
 /* Background and Form Placement */
