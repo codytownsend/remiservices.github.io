@@ -749,7 +749,7 @@ button.accordion-button.faq-button.collapsed {
 
 /* Contact Section Styles */
 .contact-section {
-    padding: 4rem 0;
+    padding: 0;
     position: relative;
     overflow: hidden;
     height: 900px;
@@ -880,7 +880,7 @@ button.accordion-button.faq-button.collapsed {
 
 .form-container {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
